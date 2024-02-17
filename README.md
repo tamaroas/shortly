@@ -39,6 +39,7 @@ Finally, host the web app so that it can be publicly accessible.
 
 ## Deliverables
 
+Fork this repository, work on the requirements, push to the forked repository (under your account) and have the link to the repository shared with me. You've got a week to have it submitted.
 Make sure to include all source code in the repository.
 
 **Have fun building!** 🚀
