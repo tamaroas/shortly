@@ -6,7 +6,7 @@ Using TypeScript and Angular, your challenge is to build out a URL shortening we
 
 ## Brief
 
-URL shortening is a technique on the Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page. This is achieved by using a redirect that links to the web page that has a long URL. For example, the URL "https://example.com/assets/category_B/subcategory_C/Foo/" can be shortened to "https://example.com/Foo", and the URL "http://example.com/about/index.html" can be shortened to "https://goo.gl/aO3Ssc ".
+URL shortening is a technique on the Web in which a Uniform Resource Locator (URL) may be made substantially shorter and still direct to the required page. This is achieved by using a redirect that links to the web page that has a long URL. For example, the URL "https://example.com/assets/category_B/subcategory_C/Foo/" can be shortened to "https://shrtlnk.dev/5k9ook", and the URL "http://example.com/about/index.html" can be shortened to "https://shrtlnk.dev/4733wz".
 
 Your challenge is to build out this landing page, integrate with the [shrtlnk API](https://www.shrtlnk.dev/developer) and get it looking as close to the design as possible.
 
