@@ -2,7 +2,7 @@
 
 ## Objective
 
-Using TypeScript and Angular, your challenge is to build out a URL shortening web app, integrate with the [shrtlnk API](https://www.shrtlnk.dev/developer), and get it looking as close to the design as possible.
+Using TypeScript and React, your challenge is to build out a URL shortening web app, integrate with the [shrtlnk API](https://www.shrtlnk.dev/developer), and get it looking as close to the design as possible.
 
 ## Brief
 
