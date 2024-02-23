@@ -1,4 +1,6 @@
 .navbar{
+    width: 80vw;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,10 +55,11 @@
       width: 85vw;
       top: 90px; /* Ajuster la position verticale du menu déroulant */
       right: 5%; /* Ajuster la position horizontale du menu déroulant */
-      background-color: hsl(257, 27%, 26%); /* Couleur de fond */
+      background-color: rgb(59, 48, 84); 
       border-radius: 15px;
       padding: 10px;
-      display: none; /* Masquer le menu déroulant par défaut */
+      display: none;
+      z-index: 1;
     }
   
     .menuItems.active {

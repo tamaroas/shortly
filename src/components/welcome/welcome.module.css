@@ -1,0 +1,86 @@
+.container {
+  position: relative;
+  width: 80vw;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.subContainer {
+  max-width: 90vw;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.left {
+  text-align: left;
+  line-height: 1;
+}
+
+.rigth {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.rigth > img {
+  margin-left: 57%;
+}
+
+.supCardContainer {
+  width: 80vw;
+  position: absolute;
+  top: 60vh;
+  left: 0;
+}
+
+.card {
+  padding: 50px 20px;
+  max-width: 100%;
+  /* height: 20vh; */
+  border-radius: 10px;
+  background-image: linear-gradient(
+      rgba(59, 48, 84, 0.9),
+      rgba(59, 48, 84, 0.9)
+    ),
+    url("../../../public/images/bg-shorten-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.form {
+  width: 70vw;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 37%;
+}
+
+.form > input {
+  margin-left: 10%;
+  width: 45vw;
+  display: flex;
+  padding-left: 2%;
+  border-radius: 10px;
+  border: none;
+  height: 8vh;
+  background-color: #fff;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .supCardContainer {
+    position: absolute;
+    top: 160vh;
+    left: 0;
+  }
+}

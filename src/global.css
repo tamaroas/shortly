@@ -5,10 +5,11 @@
 body {
   color: hsl(257, 7%, 63%);
   font-family: 'Poppins',sans-serif;
-  font-weight: 700;
-  margin-left: 5%;
-  margin-right: 5%;
+  position: relative;
+}
 
+.font-700{
+  font-weight: 700;
 }
 
 h1 {
@@ -33,6 +34,11 @@ a {
   font-weight: bold;
 }
 
+a:hover{
+  text-decoration: underline;
+  color: hsl(180, 66%, 49%);
+}
+
 ul{
   list-style-type: none;
 }
@@ -49,7 +55,7 @@ ul{
   color:hsl(260, 8%, 14%);
 }
 .very-dark-Blue{
- color: hsl(255, 11%, 22%);
+ color: rgb(53, 50, 62);
 }
 
 .primary-cyan{
@@ -57,7 +63,7 @@ ul{
 }
 
 .primary-dark-violet{
-  color: hsl(257, 27%, 26%);
+  color: rgb(59, 48, 84);
 }
 
 .secondary-red{
@@ -75,14 +81,44 @@ ul{
   font-weight: bold;
 }
 
+.btn-cyan-raduis-50:hover{
+  background-color: hsl(180, 38%, 38%);
+}
+
 .btn-cyan-raduis-15{
+  max-width: 70vw;
+  height: 8vh;
   background-color: hsl(180, 66%, 49%);
-  color: hsl(0, 0%, 75%);
+  color: #ffffffd1;
   padding: 5px 10px;
-  display: flex;
-  border-radius: 15px;
+  border-radius: 10px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 10%;
+  
+}
+.btn-cyan-raduis-15:hover{
+  background-color: hsl(180, 38%, 38%);
 }
 
 .max-widht{
-  width:100%;
+  max-width:100%;
+}
+
+.max-font{
+  font-size: 5rem;
+}
+
+.font-size-2{
+  font-size: 2rem;
+}
+.font-size-1{
+  font-size: 1.5rem;
+}
+
+.marding-top-15{
+  margin-top: 15%;
 }
