@@ -2,7 +2,7 @@ FROM node:alpine AS build
 
 WORKDIR /app
 
-COPY package.json package-lock.json* yarn.lock ./
+COPY package.json package-lock.json* ./
 
 RUN npm install
 
