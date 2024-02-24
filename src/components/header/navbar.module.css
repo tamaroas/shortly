@@ -33,18 +33,18 @@
     }
   
     .navbar {
-      justify-content: space-between; /* Ajouter une marge entre les éléments de la navbar */
+      justify-content: space-between; 
     }
   
     .mobileMenu {
-      display: flex; /* Afficher le menu mobile */
+      display: flex; /* Show mobile menu */
       justify-content: center;
       align-items: center;
       gap: 20px;
     }
   
     .menuIcon {
-      display: block; /* Afficher l'icône du menu */
+      display: block; /*Show menu icon  */
       font-size: 24px;
       cursor: pointer;
     }
@@ -53,8 +53,8 @@
       position: absolute;
       align-content: center;
       width: 85vw;
-      top: 90px; /* Ajuster la position verticale du menu déroulant */
-      right: 5%; /* Ajuster la position horizontale du menu déroulant */
+      top: 90px;
+      right: 5%;
       background-color: rgb(59, 48, 84); 
       border-radius: 15px;
       padding: 10px;
@@ -63,7 +63,7 @@
     }
   
     .menuItems.active {
-      display: block; /* Afficher le menu déroulant lorsque le bouton est cliqué */
+      display: block; /* Show drop-down menu when button is clicked */
     }
 
     .menuItems >ul>li{
