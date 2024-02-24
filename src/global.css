@@ -86,7 +86,6 @@ ul{
 }
 
 .btn-cyan-raduis-15{
-  max-width: 70vw;
   height: 8vh;
   background-color: hsl(180, 66%, 49%);
   color: #ffffffd1;
@@ -97,11 +96,24 @@ ul{
   align-items: center;
   font-size: 1.2em;
   font-weight: bold;
-  margin-left: 10%;
   
 }
 .btn-cyan-raduis-15:hover{
   background-color: hsl(180, 38%, 38%);
+}
+
+.btn-cyan-raduis-10{
+  height: 4vh;
+  background-color: hsl(180, 66%, 49%);
+  color: #ffffffd1;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: bold;
+  
 }
 
 .max-widht{

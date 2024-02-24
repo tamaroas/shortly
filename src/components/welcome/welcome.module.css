@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: 80vw;
+  max-width: 100%;
   margin: 0px auto;
   align-items: center;
   justify-content: center;
@@ -33,8 +33,9 @@
 .supCardContainer {
   width: 80vw;
   position: absolute;
-  top: 60vh;
-  left: 0;
+  top: 35%;
+  left: 10%;
+  z-index: 5;
 }
 
 .card {
@@ -51,30 +52,72 @@
   background-size: cover;
   justify-content: center;
   align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  display: flexbox;
 }
 
 .form {
-  width: 70vw;
+  max-width: 70%;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 37%;
+  grid-template-columns: 80% 20%;
+  gap: 15px;
 }
 
-.form > input {
-  margin-left: 10%;
-  width: 45vw;
-  display: flex;
-  padding-left: 2%;
+.form input {
+  width: 100%;
   border-radius: 10px;
+  padding-left: 5px;
   border: none;
   height: 8vh;
   background-color: #fff;
   font-size: 1.2rem;
+}
+
+.form button{
+  height: 8vh;
+}
+
+.stat{
+ position: relative;
+ max-width: 100;
+ justify-content: center;
+ align-items: center;
+}
+
+.subStat{
+  margin-top: 10%;
+  position: absolute;
+  top: -14%;
+  left: 10%;
+  width: 79vw;
+  z-index: 1;
+}
+
+.response{
+  margin-top: 5px;
+  max-width: 95%;
+  height: 5vh;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 15px;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.ResponseLft{
+  padding-left: 10%;
+  display: flex;
+  color: black;
+}
+.ResponseRigth{
+  padding-left: 5%;
+  display: grid;
+  grid-template-columns: 60% 20%;
+  gap: 15px;
+  color: hsl(180, 66%, 49%);
 }
 
 @media only screen and (max-width: 768px) {
@@ -82,5 +125,9 @@
     position: absolute;
     top: 160vh;
     left: 0;
+  }
+
+  .form{
+    grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
   }
 }
